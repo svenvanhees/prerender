@@ -21,6 +21,7 @@
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
+    "@playwright/test": "^1.57.0",
     "mocha": "^8.4.0",
     "prettier": "3.3.2",
     "sinon": "^11.1.1"
