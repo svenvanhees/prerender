@@ -16,7 +16,7 @@ const server = prerender({
   forwardHeaders: true,
   chromeLocation: '/usr/bin/chromium-browser',
   captureConsoleLog: true,
-  logRequests: true,
+  logRequests: false,
 });
 
 const memCache = Number(process.env.MEMORY_CACHE) || 0;
